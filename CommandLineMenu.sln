@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandLineMenu", "CommandLineMenu\CommandLineMenu.csproj", "{451C3DC0-DB06-45C2-9A06-070EF921B285}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandLineMenu.Examples", "CommandLineMenu.Examples\CommandLineMenu.Examples.csproj", "{BC522E6A-F25E-4271-8B3C-842065479BED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{451C3DC0-DB06-45C2-9A06-070EF921B285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{451C3DC0-DB06-45C2-9A06-070EF921B285}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{451C3DC0-DB06-45C2-9A06-070EF921B285}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{451C3DC0-DB06-45C2-9A06-070EF921B285}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC522E6A-F25E-4271-8B3C-842065479BED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC522E6A-F25E-4271-8B3C-842065479BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC522E6A-F25E-4271-8B3C-842065479BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC522E6A-F25E-4271-8B3C-842065479BED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67E655E5-6783-4526-A95D-FAE37275AFD3}
+	EndGlobalSection
+EndGlobal
