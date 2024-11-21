@@ -34,3 +34,11 @@ var menu5 = alternatives.ToMenu();
 var result5 = menu5.ShowMenu();
 Console.WriteLine($"Selected: {result5}");
 Console.WriteLine();
+
+// Create Menu from other object type
+var menu6 = Enum.GetValues<Alternatives>().ToMenu();
+var result6 = menu6.ShowMenu();
+Console.WriteLine($"Selected: {result6}");
+Console.WriteLine();
+
+enum Alternatives { Alternative1, Alternative2, Alternative3 }
