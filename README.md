@@ -1,4 +1,6 @@
 # CommandLineMenu
+[![NuGet Version](https://img.shields.io/nuget/v/ConsoleLineMenu.11.12.24.001)](https://www.nuget.org/packages/ConsoleLineMenu.11.12.24.001/)
+
 .NET Library for creating menus that prompts the user to select an option and gives back the selected alternative. 
 
 ## Menu\<T>
