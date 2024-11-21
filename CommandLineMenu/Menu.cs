@@ -8,7 +8,7 @@ namespace CommandLineMenu;
 /// Alternatives can be accessed by index. Provides methods to search, sort, and manipulate lists.
 /// </summary>
 /// <typeparam name="T">The type of alternatives in the menu.</typeparam>
-public class Menu<T> : IEnumerable<T>, ICollection<T>
+public class Menu<T> : IList<T>
 {
     private List<T> _alternatives;
 
